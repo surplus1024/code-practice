@@ -1,12 +1,14 @@
 package reflect.liaoxuefeng.dynamicproxy.dynamic2;
 
-import javafx.scene.shape.HLineTo;
-
 import java.lang.reflect.InvocationHandler;
 import java.lang.reflect.Method;
 import java.lang.reflect.Proxy;
 import java.util.Arrays;
-
+/**
+ * @author  xy
+ * @date 2021-04-14 10:10:30
+ * @desc jdk动态代理演示
+ */
 public class LogInvocationHandler implements InvocationHandler {
     private Hello hello;
     public LogInvocationHandler(Hello hello) {
