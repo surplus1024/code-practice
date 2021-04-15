@@ -2,7 +2,7 @@ package reflect.liaoxuefeng.dynamicproxy.dynamic2;
 /**
  * @author  xy
  * @date    2021-04-13 22:30:54
- * @desc    静态代理
+ * @desc    静态代理,常规的
  */
 public class StaticProxiedHello implements Hello {
     private Hello hello = new HelloImpl();
