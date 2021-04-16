@@ -1,6 +1,5 @@
 package one.two;
 
-import one.two.www.MyThread;
 import one.two.www.MyThread2;
 
 public class Test {
