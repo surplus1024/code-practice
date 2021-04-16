@@ -1,4 +1,4 @@
-package designpattern;
+package designpattern.singleton;
 
 /**
  * 单例 双重校验锁
