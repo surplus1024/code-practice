@@ -1,10 +1,10 @@
 package one.two.www;
 
 public class MyThread extends Thread {
-    private int count = 5;
+
+    @Override
     public void run() {
         super.run();
-        count--;
-        System.out.println("count= " + count);
+        System.out.println("running " + Thread.currentThread().getName());
     }
 }

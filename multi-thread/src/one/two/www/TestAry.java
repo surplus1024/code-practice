@@ -1,6 +1,6 @@
 package one.two.www;
 
-public class Run3 {
+public class TestAry {
     public static void main(String[] args) {
         // 声明数组的两种方式
         int ary[];

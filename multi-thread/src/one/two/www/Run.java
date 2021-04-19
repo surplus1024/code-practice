@@ -1,7 +1,7 @@
 package one.two.www;
 
 public class Run {
-    public static void main(String[] args) {
+    public static void main(String[] args) throws InterruptedException {
 //        MyThread t1 = new MyThread();
 //        t1.start();
 //        System.out.println("runing end");
@@ -11,14 +11,17 @@ public class Run {
 //        t1.start();
         MyThread t = new MyThread();
         Thread a = new Thread(t, "a");
+
         Thread b = new Thread(t, "b");
+        Thread.sleep(2000);
+
         Thread c = new Thread(t, "c");
-        Thread d = new Thread(t, "d");
-        Thread e = new Thread(t, "e");
+//        a.start();
+        System.out.println("b before Current Thread " + Thread.currentThread().getName());
+//        b.run();
         a.start();
-        b.start();
-        c.start();
-        d.start();
-        e.start();
+        Thread.sleep(2000);
+        System.out.println("b after Current Thread " + Thread.currentThread().getName());
+//        c.start();
     }
 }
