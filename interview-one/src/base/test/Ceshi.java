@@ -24,16 +24,16 @@ public class Ceshi {
 
     static void test6(){
         for (int i = 0; i < 5; i++) {
-            System.out.println("for-asc:" + i);
+            System.out.println("for-asc:" + i); // 0 1 2 3 4
         }
 
         for (int j = 4; j > -1; j--) {
-            System.out.println("for-desc: " + j);
+            System.out.println("for-desc: " + j); // 4 3 2 1 0
         }
 
         int m = 0;
         while (m < 5){
-            System.out.println("while-asc: " + m);
+            System.out.println("while-asc: " + m); // 0 1 2 3 4
             m++;
         }
 
